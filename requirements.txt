@@ -1,0 +1,5 @@
+flet~=0.24.1
+pyzkfp~=0.1.5
+requests
+loguru~=0.7.2
+pillow~=10.4.0
