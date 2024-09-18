@@ -197,7 +197,7 @@ class FingerprintScanner:
     def create_app_bar_pages(self, page: ft.Page):
         return ft.AppBar(
             leading=ft.IconButton(ft.icons.ARROW_BACK, on_click=lambda e: page.go("/")),
-            title=ft.Text("Madina Scanner"),
+            title=ft.Text("ZKFinger Scanner"),
             center_title=False,
             bgcolor=ft.colors.SURFACE_VARIANT,
             actions=[
@@ -209,7 +209,7 @@ class FingerprintScanner:
         return ft.AppBar(
             leading=ft.Icon(ft.icons.FINGERPRINT),
             leading_width=40,
-            title=ft.Text("Madina Scanner"),
+            title=ft.Text("ZKFinger Scanner"),
             center_title=False,
             bgcolor=ft.colors.SURFACE_VARIANT,
             actions=[
@@ -545,7 +545,7 @@ class FingerprintScanner:
 
     def app(self, page: ft.Page):
         self.page = page
-        page.title = "Madina Finger Scanner"
+        page.title = "ZKFinger Scanner"
         page.theme_mode = ft.ThemeMode.DARK
         page.window.icon = ft.icons.APPS
         page.window.width = 700
@@ -558,7 +558,7 @@ class FingerprintScanner:
         page.appbar = ft.AppBar(
             leading=ft.Icon(ft.icons.FINGERPRINT),
             leading_width=40,
-            title=ft.Text("MF Scanner"),
+            title=ft.Text("ZKFinger Scanner"),
             center_title=False,
             bgcolor=ft.colors.SURFACE_VARIANT,
             actions=[
