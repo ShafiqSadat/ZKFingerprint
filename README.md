@@ -70,7 +70,7 @@ This will launch the Flet UI for the fingerprint scanner, providing options to r
 
 ## Screenshots
 
-![Registration Process Animation](https://s5.ezgif.com/tmp/ezgif-5-7e79ece354.gif)
+![Registration Process Animation](https://raw.githubusercontent.com/ShafiqSadat/ZKFingerprint/refs/heads/master/screenshots/screenshot.gif)
 
 ## License
 
