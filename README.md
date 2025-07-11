@@ -19,7 +19,7 @@ The system stores fingerprints in an SQLite database and syncs them with the dev
 Before running the application, ensure you have the following:
 
 - On Linux and macOS: A .NET (or Mono) runtime is required to support ZKTeco SDKs and the C# wrapper. Windows is pre-configured with .NET by default.
-- The ZKFinger SDK and its C# wrapper installed on your machine. You can download it from the official website [here](https://www.zkteco.com/en/Biometrics_Module_SDK/).
+- The ZKFinger SDK and its C# wrapper installed on your machine. You can download it from the official website [here](https://www.zkteco.com/en/Biometrics_Module_SDK).
 - This Application supports ZKTeco devices like SLK20R, ZK9500, ZK6500, ZK8500R.
 1. **Python 3.8+** installed on your machine.
 2. **Flet** installed for the UI.
